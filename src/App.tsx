@@ -6,7 +6,7 @@ import Resume from "./pages/Resume";
 import Portfolio from "./pages/Portfolio";
 import Layout from "./components/Layout";
 
-function App() {
+const App: React.FC = () => {
   return (
     <Routes>
       <Route element={<Layout />}>
@@ -16,6 +16,6 @@ function App() {
       </Route>
     </Routes>
   );
-}
+};
 
 export default App;
