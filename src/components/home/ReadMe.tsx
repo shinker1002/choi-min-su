@@ -1,8 +1,9 @@
 import React from "react";
 import dummy1 from "../../assets/images/1920x1080.png";
 import { useNavigate } from "react-router-dom";
+import { readMe } from "../../data/data";
 
-const ReadMe: React.FC = () => {
+const ReadMe: React.FC<readMe> = ({ readMeImage }) => {
   const navigate = useNavigate();
 
   function goResume() {
@@ -22,7 +23,7 @@ const ReadMe: React.FC = () => {
           <img
             onClick={goResume}
             className="cursor-pointer rounded-2xl"
-            src={dummy1}
+            src={readMeImage[0]}
             alt="resume"
           />
         </div>
@@ -31,7 +32,7 @@ const ReadMe: React.FC = () => {
           <img
             onClick={goPortfolio}
             className="cursor-pointer rounded-2xl"
-            src={dummy1}
+            src={readMeImage[1]}
             alt="portfolio"
           />
         </div>
@@ -39,12 +40,18 @@ const ReadMe: React.FC = () => {
       <div className="flex justify-center w-full mt-10">
         <div className="flex flex-col justify-center w-1/2 align-middle">
           <p className="m-auto">이력서를 보려면</p>
-          <p className="m-auto">Resume를 클릭해주세요.</p>
+          <p className="m-auto">
+            <span className="font-bold text-yellow-500">Resume</span>를
+            클릭해주세요.
+          </p>
         </div>
         <div className="w-2"></div>
         <div className="flex flex-col justify-center w-1/2 align-middle">
           <p className="m-auto">포트폴리오를 보려면</p>
-          <p className="m-auto">Portfolio를 클릭해주세요.</p>
+          <p className="m-auto">
+            <span className="font-bold text-purple-700">Portfolio</span>를
+            클릭해주세요.
+          </p>
         </div>
       </div>
       <div className="flex flex-col w-full pt-8 mt-12 border-t">
