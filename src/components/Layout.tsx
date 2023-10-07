@@ -123,10 +123,7 @@ const Layout: React.FC = () => {
         <NavMobile menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
       )}
 
-      <main
-        className="w-screen font-serif mt-14"
-        style={{ background: "pink", height: 3000 }}
-      >
+      <main className="w-screen mt-12 font-serif">
         <Outlet />
       </main>
     </div>
