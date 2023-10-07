@@ -18,7 +18,7 @@ export interface readMe {
 
 export const readmeData: readMe = {
   readMeImage: [
-    `${process.env.REACT_APP_URL}/build/1920x1080.png`,
-    `${process.env.REACT_APP_URL}/build/1920x1080.png`,
+    `${process.env.REACT_APP_URL}/build/career-3449422_1920.png`,
+    `${process.env.REACT_APP_URL}/build/resume-6627200_1920.jpg`,
   ],
 };
