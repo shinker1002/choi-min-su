@@ -17,7 +17,7 @@ const ReadMe: React.FC<readMe> = ({ readMeImage }) => {
 
   return (
     <div className="w-full font-sans text-gray-700">
-      <div className="pt-8 mt-12 mb-12 text-2xl font-bold border-t">README</div>
+      <div className="pt-8 mt-10 mb-8 text-2xl font-bold border-t">README</div>
       <div className="flex justify-center w-full mt-8 md:flex-col">
         <div
           onClick={goResume}
