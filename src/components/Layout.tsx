@@ -21,7 +21,7 @@ const Layout: React.FC = () => {
 
   return (
     <div>
-      <header className="fixed top-0 flex flex-col items-center justify-center w-screen h-12 font-serif text-sm font-extrabold text-gray-800 bg-white">
+      <header className="fixed top-0 z-50 flex flex-col items-center justify-center w-screen h-12 font-serif text-sm font-extrabold text-gray-800 bg-white">
         <div className="flex items-center justify-center w-screen h-full px-3">
           {/** 아이콘 */}
           <div className="flex items-center w-1/12 h-full md:absolute md:left-3">
