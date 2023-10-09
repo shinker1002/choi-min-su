@@ -17,7 +17,7 @@ const NavMobile: React.FC<navMobileProps> = ({ menuOpen, setMenuOpen }) => {
   };
 
   return (
-    <nav className="fixed flex-col hidden w-screen mt-px font-serif font-bold bg-white border-b border-gray-300 h-80 md:flex top-12">
+    <nav className="fixed z-50 flex-col hidden w-screen mt-px font-serif font-bold bg-white border-b border-gray-300 h-80 md:flex top-12">
       <div className="flex items-center justify-center flex-auto">
         <div className="w-screen cursor-pointer h-14 hover:bg-gray-200 hover:text-blue-600">
           <NavLink
