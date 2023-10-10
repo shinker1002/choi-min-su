@@ -97,6 +97,18 @@ export interface projectsResume {
 export const projectsResumeData: projectsResume = {
   projects: [
     {
+      date: "2023.09 ~ 2023.10",
+      title: "Resume - Portfolio",
+      description: "이력서 - 포트폴리오 페이지",
+      stacks: ["React", "TypeScript", "Tailwind CSS"],
+      detail: [
+        "React, Typescript, Tailwind CSS 로 개발.",
+        "Resume 페이지 구현.",
+        "Portfolio 페이지 구현.",
+        "Desktop - Mobile 반응형 UI 구현.",
+      ],
+    },
+    {
       date: "2023.01 ~ 2023.02",
       title: "OMC",
       description: "차박 예약 플랫폼",

@@ -8,7 +8,7 @@ const Introduce: React.FC<introduceResume> = ({ introduceResume }) => {
       </h2>
       {introduceResume.map((el: string, idx: number) => {
         if (el === "") {
-          return <div className="mt-12" />;
+          return <div className="mt-6" />;
         } else {
           return <span className="inline-block">{el}</span>;
         }
