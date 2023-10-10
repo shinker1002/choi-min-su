@@ -1,6 +1,13 @@
 import React from "react";
-import { stacksResume } from "../../data/data";
-const Stacks: React.FC<stacksResume> = ({ front, database, etc }) => {
+import { stacksPortfolio } from "../../data/data";
+const Stacks: React.FC<stacksPortfolio> = ({
+  front,
+  frontDetail,
+  database,
+  databaseDetail,
+  etc,
+  etcDetail,
+}) => {
   return (
     <div className="w-full mb-10 font-sans text-gray-700">
       <h2 className="pb-6 mb-6 text-3xl font-semibold text-yellow-600 border-b-2 border-gray-600">
@@ -17,26 +24,9 @@ const Stacks: React.FC<stacksResume> = ({ front, database, etc }) => {
         </ul>
       </div>
       <ul className="pb-6 pl-6 mb-6 list-disc border-b">
-        <li className="mb-1">
-          주로 React를 사용하여 앱을 만듭니다. 여러가지 React Hooks을 사용하거나
-          재사용할 수 있는 로직을 분리하는 데에 익숙합니다. Redux, React-Query와
-          같은 여러가지 라이브러리를 사용하는 데 능숙합니다.
-        </li>
-        <li className="mb-1">
-          TypeScript를 활용하여 프로젝트를 구현할 수 있습니다.
-        </li>
-        <li className="mb-1">
-          Tailwind CSS, Styled-Components, Sass를 사용하여 웹 페이지를 디자인할
-          수 있습니다.
-        </li>
-        <li className="mb-1">
-          JavaScript의 최신 문법을 공부하고 적용하기 위해 수시로 찾아보고
-          학습하고 있습니다.
-        </li>
-        <li className="mb-1">
-          웹 접근성과 웹 표준을 고려하여 상황에 맞는 시맨틱 요소를 사용할 수
-          있습니다.
-        </li>
+        {frontDetail.map((el, idx) => {
+          return <li className="mb-1">{el}</li>;
+        })}
       </ul>
       <div className="flex w-full pb-6 mb-6 border-b md:flex-col">
         <h3 className="w-1/3 text-xl font-semibold text-blue-600 md:mb-4">
@@ -49,9 +39,9 @@ const Stacks: React.FC<stacksResume> = ({ front, database, etc }) => {
         </ul>
       </div>
       <ul className="pb-6 pl-6 mb-6 list-disc border-b">
-        <li className="mb-1">
-          쿼리문을 작성하여 원하는 결과값을 출력할 수 있습니다.
-        </li>
+        {databaseDetail.map((el, idx) => {
+          return <li className="mb-1">{el}</li>;
+        })}
       </ul>
       <div className="flex w-full pb-6 mb-6 border-b md:flex-col">
         <h3 className="w-1/3 text-xl font-semibold text-blue-600 md:mb-4">
@@ -64,18 +54,9 @@ const Stacks: React.FC<stacksResume> = ({ front, database, etc }) => {
         </ul>
       </div>
       <ul className="pb-6 pl-6 mb-6 list-disc border-b">
-        <li className="mb-1">
-          S3, Route53, CloudFront를 사용하여 정적 웹 사이트를 호스팅할 수
-          있습니다.
-        </li>
-        <li className="mb-1">
-          Eslint, Prettier을 사용하여 코드의 퀄리티와 스타일을 유지할 수
-          있습니다.
-        </li>
-        <li className="mb-1">
-          Git을 사용한 워크플로우에 익숙하며 Github Kanban Board를 사용하여
-          Issues를 관리할 수 있습니다.
-        </li>
+        {etcDetail.map((el, idx) => {
+          return <li className="mb-1">{el}</li>;
+        })}
       </ul>
     </div>
   );

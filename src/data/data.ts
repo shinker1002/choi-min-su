@@ -242,3 +242,37 @@ export const experiencesResumeData: experiencesResume = {
     },
   ],
 };
+
+export interface stacksPortfolio extends stacksResume {
+  frontDetail: string[];
+  databaseDetail: string[];
+  etcDetail: string[];
+}
+
+export const stacksPortfolioData: stacksPortfolio = {
+  front: [
+    "React.js",
+    "JavasSript",
+    "TypeScript",
+    "HTML/CSS",
+    "Redux",
+    "React-Query",
+    "Tailwind CSS",
+    "Styled-Components",
+  ],
+  frontDetail: [
+    "주로 React를 사용하여 앱을 만듭니다. 여러가지 React Hooks을 사용하거나 재사용할 수 있는 로직을 분리하는 데에 익숙합니다. Redux, React-Query와 같은 여러가지 라이브러리를 사용하는 데 능숙합니다.",
+    "TypeScript를 활용하여 프로젝트를 구현할 수 있습니다.",
+    "Tailwind CSS, Styled-Components, Sass를 사용하여 웹 페이지를 디자인할 수 있습니다.",
+    "JavaScript의 최신 문법을 공부하고 적용하기 위해 수시로 찾아보고 학습하고 있습니다.",
+    "웹 접근성과 웹 표준을 고려하여 상황에 맞는 시맨틱 요소를 사용할 수 있습니다.",
+  ],
+  database: ["MySQL"],
+  databaseDetail: ["쿼리문을 작성하여 원하는 결과값을 출력할 수 있습니다."],
+  etc: ["Git / GithubL", "AWS", "VS Code", "Python", "Prettier", "Eslint"],
+  etcDetail: [
+    "S3, Route53, CloudFront를 사용하여 정적 웹 사이트를 호스팅할 수 있습니다.",
+    "Eslint, Prettier을 사용하여 코드의 퀄리티와 스타일을 유지할 수 있습니다.",
+    "Git을 사용한 워크플로우에 익숙하며 Github Kanban Board를 사용하여 Issues를 관리할 수 있습니다.",
+  ],
+};
