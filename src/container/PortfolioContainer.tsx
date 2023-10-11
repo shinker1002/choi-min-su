@@ -1,10 +1,13 @@
 import React from "react";
 import Profile from "../components/portfolio/Profile";
 import Stacks from "../components/portfolio/Stacks";
-import { stacksPortfolioData } from "../data/data";
+import Experiences from "../components/resume/Experiences";
+import Projects from "../components/portfolio/Projects";
+import { stacksPortfolioData, experiencesResumeData } from "../data/data";
 const PortfolioContainer: React.FC = () => {
   const { front, frontDetail, database, databaseDetail, etc, etcDetail } =
     stacksPortfolioData;
+  const { experiences } = experiencesResumeData;
 
   return (
     <div className="w-[1100px] pr-[96px] pl-[96px] pb-[176px] sm:px-3 sm:pb-[96px]">
@@ -17,6 +20,8 @@ const PortfolioContainer: React.FC = () => {
         etc={etc}
         etcDetail={etcDetail}
       />
+      <Projects />
+      <Experiences experiences={experiences} />
     </div>
   );
 };

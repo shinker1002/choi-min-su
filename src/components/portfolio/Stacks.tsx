@@ -23,7 +23,7 @@ const Stacks: React.FC<stacksPortfolio> = ({
           })}
         </ul>
       </div>
-      <ul className="pb-6 pl-6 mb-6 list-disc border-b">
+      <ul className="pb-6 pl-6 mb-6 list-disc border-b border-gray-500">
         {frontDetail.map((el, idx) => {
           return <li className="mb-1">{el}</li>;
         })}
@@ -38,7 +38,7 @@ const Stacks: React.FC<stacksPortfolio> = ({
           })}
         </ul>
       </div>
-      <ul className="pb-6 pl-6 mb-6 list-disc border-b">
+      <ul className="pb-6 pl-6 mb-6 list-disc border-b border-gray-500">
         {databaseDetail.map((el, idx) => {
           return <li className="mb-1">{el}</li>;
         })}
@@ -47,7 +47,7 @@ const Stacks: React.FC<stacksPortfolio> = ({
         <h3 className="w-1/3 text-xl font-semibold text-blue-600 md:mb-4">
           Etc
         </h3>
-        <ul className="flex flex-wrap flex-auto w-2/3 list-disc md:pl-6 md:w-full">
+        <ul className="flex flex-wrap flex-auto w-2/3 list-disc md:pl-6 md:w-full ">
           {etc.map((el, idx) => {
             return <li className="w-1/2 h-10">{el}</li>;
           })}

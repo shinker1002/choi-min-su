@@ -238,7 +238,7 @@ export const experiencesResumeData: experiencesResume = {
       date: "2021. 12 ~ 2022. 02",
       title: "Stop Covid-19 아이디어 해커톤",
       description: "SW기반 코로나 시대를 변화시킬 아이디어 해커톤",
-      detail: ["COVID-19로 인한 비 접촉 여행, 차박 예약 서비스 아이디어 제출."],
+      detail: ["COVID-19로 인한 비 접촉 여행, 차박 예약 서비스 제출."],
     },
   ],
 };
