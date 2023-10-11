@@ -98,7 +98,7 @@ export const projectsResumeData: projectsResume = {
   projects: [
     {
       date: "2023.09 ~ 2023.10",
-      title: "Resume - Portfolio",
+      title: "이력서, 포트폴리오 웹사이트",
       description: "이력서 - 포트폴리오 페이지",
       stacks: ["React", "TypeScript", "Tailwind CSS"],
       detail: [
@@ -261,7 +261,7 @@ export const stacksPortfolioData: stacksPortfolio = {
     "Styled-Components",
   ],
   frontDetail: [
-    "주로 React를 사용하여 앱을 만듭니다. 여러가지 React Hooks을 사용하거나 재사용할 수 있는 로직을 분리하는 데에 익숙합니다. Redux, React-Query와 같은 여러가지 라이브러리를 사용하는 데 능숙합니다.",
+    "주로 React를 사용하여 앱을 만듭니다. 여러가지 React Hooks을 사용하거나 재사용할 수 있는 로직을 분리하는 데에 익숙합니다. Redux, React-Query와 같은 여러가지 상태 관리 라이브러리를 사용하는 데 능숙합니다.",
     "TypeScript를 활용하여 프로젝트를 구현할 수 있습니다.",
     "Tailwind CSS, Styled-Components, Sass를 사용하여 웹 페이지를 디자인할 수 있습니다.",
     "JavaScript의 최신 문법을 공부하고 적용하기 위해 수시로 찾아보고 학습하고 있습니다.",

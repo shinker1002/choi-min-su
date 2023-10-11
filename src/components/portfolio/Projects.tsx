@@ -11,15 +11,15 @@ const Projects: React.FC = () => {
         <div className="w-1/3 mb-6 mr-2 font-bold text-gray-500 md:w-full md:mb-1">
           2023.09 ~ 2023.10
         </div>
-        <div className="flex w-full pt-4 border-t border-gray-200">
-          <div className="w-1/2 mr-8 border-gray-600">
+        <div className="flex w-full pt-4 border-t border-gray-200 md:flex-col">
+          <div className="w-1/2 mr-8 border-gray-600 md:w-full md:mb-8">
             <img
               className="w-full"
               src={`${process.env.REACT_APP_URL}images/img2.png`}
               alt="123"
             />
           </div>
-          <div className="w-1/2 border-gray-600">
+          <div className="w-1/2 border-gray-600 md:w-full">
             <div className="w-full pb-4 mb-4 border-b border-gray-400">
               <span>
                 <span className="font-bold">
@@ -34,9 +34,15 @@ const Projects: React.FC = () => {
               <div className="mt-4" />
               <span>
                 최근 사용율이 높은{" "}
-                <span className="font-bold text-blue-500">TypeSciprt</span>와{" "}
                 <span className="font-bold text-blue-500">Tailwind CSS</span>를
                 학습하고 프로젝트에 적용하였습니다.
+              </span>
+              <div className="mt-4" />
+              <span>
+                JavaScript를 사용하며 느낀 컴파일 에러의 불편함을 해결하고자{" "}
+                <span className="font-bold text-blue-500">TypeSciprt</span>를
+                프로젝트에 적용하였고, 강력한 타입시스템을 활용하여 사전에
+                에러를 예방하고 손쉬운 디버깅이 가능하도록 하였습니다.
               </span>
               <div className="mt-4" />
               <span>
@@ -69,7 +75,22 @@ const Projects: React.FC = () => {
                 </div>
                 <div className="flex-auto ">
                   <a
-                    className="text-gray-400 underline"
+                    className="text-blue-500 underline"
+                    href="https://github.com/shinker1002/choi-min-su"
+                  >
+                    https://github.com/shinker1002/choi-min-su
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div className="flex w-full">
+              <div className="flex w-full mb-3">
+                <div className="flex-wrap flex-shrink-0 h-10 text-lg font-bold w-28">
+                  URL
+                </div>
+                <div className="flex-auto ">
+                  <a
+                    className="text-blue-500 underline"
                     href="https://github.com/shinker1002/choi-min-su"
                   >
                     https://github.com/shinker1002/choi-min-su
@@ -112,15 +133,15 @@ const Projects: React.FC = () => {
         <div className="w-1/3 mb-6 mr-2 font-bold text-gray-500 md:w-full md:mb-1">
           2023.01 ~ 2023.02
         </div>
-        <div className="flex w-full pt-4 border-t border-gray-200">
-          <div className="w-1/2 mr-8 border-gray-600">
+        <div className="flex w-full pt-4 border-t border-gray-200 md:flex-col">
+          <div className="w-1/2 mr-8 border-gray-600 md:w-full md:mb-8">
             <img
               className="w-full"
               src={`${process.env.REACT_APP_URL}images/OMC_Image_1.png`}
               alt="OMC"
             />
           </div>
-          <div className="w-1/2 border-gray-600">
+          <div className="w-1/2 border-gray-600 md:w-full">
             <div className="w-full pb-4 mb-4 border-b border-gray-400">
               <span>
                 Stop Covid-19 SW Challenge 해커톤에 참여할 때 나온 아이디어를
@@ -155,11 +176,8 @@ const Projects: React.FC = () => {
               </span>
               <div className="mt-4" />
               <span>
-                <span className="font-bold">
-                  모바일, 데스크탑 상관 없이 자연스러운 UI를 제공하기 위해
-                  반응형으로 구현{" "}
-                </span>
-                하였습니다.
+                모바일, 데스크탑 상관 없이 자연스러운 UI를 제공하기 위해
+                반응형으로 구현 하였습니다.
               </span>
             </div>
             <div className="flex w-full">
@@ -182,12 +200,20 @@ const Projects: React.FC = () => {
                 </div>
                 <div className="flex-auto ">
                   <a
-                    className="text-gray-400 underline"
+                    className="text-blue-500 underline"
                     href="https://github.com/shinker1002/OMC"
                   >
                     https://github.com/shinker1002/OMC
                   </a>
                 </div>
+              </div>
+            </div>
+            <div className="flex w-full">
+              <div className="flex w-full mb-3">
+                <div className="flex-wrap flex-shrink-0 h-10 text-lg font-bold w-28">
+                  URL
+                </div>
+                <div className="flex-auto ">-</div>
               </div>
             </div>
             <div className="flex w-full">
@@ -224,15 +250,15 @@ const Projects: React.FC = () => {
         <div className="w-1/3 mb-6 mr-2 font-bold text-gray-500 md:w-full md:mb-1">
           2022.11 ~ 2022.12
         </div>
-        <div className="flex w-full pt-4 border-t border-gray-200">
-          <div className="w-1/2 mr-8 border-gray-600">
+        <div className="flex w-full pt-4 border-t border-gray-200 md:flex-col">
+          <div className="w-1/2 mr-8 border-gray-600 md:w-full md:mb-8">
             <img
               className="w-full"
               src={`${process.env.REACT_APP_URL}images/luxmeal.xyz_products_1.png`}
               alt="OMC"
             />
           </div>
-          <div className="w-1/2 border-gray-600">
+          <div className="w-1/2 border-gray-600 md:w-full">
             <div className="w-full pb-4 mb-4 border-b border-gray-400">
               <span>
                 프론트엔드 부트캠프에 참여하고 있을 때 구현한 프로젝트로
@@ -284,10 +310,25 @@ const Projects: React.FC = () => {
                 </div>
                 <div className="flex-auto ">
                   <a
-                    className="text-gray-400 underline"
+                    className="text-blue-500 underline"
                     href="https://github.com/codestates-seb/seb40_main_019"
                   >
                     https://github.com/codestates-seb/seb40_main_019
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div className="flex w-full">
+              <div className="flex w-full mb-3">
+                <div className="flex-wrap flex-shrink-0 h-10 text-lg font-bold w-28">
+                  URL
+                </div>
+                <div className="flex-auto ">
+                  <a
+                    className="text-blue-500 underline"
+                    href="https://luxmeal.xyz/"
+                  >
+                    https://luxmeal.xyz
                   </a>
                 </div>
               </div>

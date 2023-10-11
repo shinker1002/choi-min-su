@@ -15,7 +15,7 @@ const Layout: React.FC = () => {
   };
 
   const handlePage = (): void => {
-    setMenuOpen(!menuOpen);
+    setMenuOpen(false);
     window.scrollTo({ top: 0, behavior: "smooth" });
   };
 
