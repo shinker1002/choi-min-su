@@ -52,7 +52,7 @@ const Profile: React.FC = () => {
           <h4 className="text-2xl text-yellow-600">Contact.·.·</h4>
           <div className="mt-1">
             <span className="font-bold">Email: </span>
-            <span>shinker1002@naver.com</span>
+            <span>shinker98@naver.com</span>
           </div>
           <div className="mt-1">
             <span className="font-bold">Phone: </span>
@@ -67,6 +67,8 @@ const Profile: React.FC = () => {
             <a
               className="text-gray-400 underline"
               href={`https://fine-reply-6a8.notion.site/f2096d686014483b9980628525ec4dc1?pvs=4`}
+              target="_blank"
+              rel="noopener noreferrer"
             >
               bit.ly/46FcZNn
             </a>
@@ -76,14 +78,16 @@ const Profile: React.FC = () => {
             <a
               className="text-gray-400 underline"
               href={`https://github.com/shinker1002`}
+              target="_blank"
+              rel="noopener noreferrer"
             >
               https://github.com/shinker1002
             </a>
           </div>
           <div className="mt-1">
-            <span className="font-bold">Portfolio: </span>
-            <NavLink className="text-gray-400 underline" to={`/portfolio`}>
-              portfolio
+            <span className="font-bold">Resume: </span>
+            <NavLink className="text-gray-400 underline" to={`/Resume`}>
+              Resume
             </NavLink>
           </div>
         </div>

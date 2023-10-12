@@ -47,7 +47,7 @@ const Projects: React.FC = () => {
               <div className="mt-4" />
               <span>
                 데이터를 받아오는 Container 컴포넌트와, UI를 위한 컴포넌트를
-                분리하여
+                분리하여{" "}
                 <span className="font-bold">
                   컴포넌트의 재사용성을 높히도록 설계
                 </span>
@@ -59,7 +59,7 @@ const Projects: React.FC = () => {
               </span>
             </div>
             <div className="flex w-full">
-              <div className="flex w-full mb-3">
+              <div className="flex w-full mb-3 sm:flex-col">
                 <div className="flex-wrap flex-shrink-0 h-10 text-lg font-bold w-28">
                   주요기능
                 </div>
@@ -69,7 +69,7 @@ const Projects: React.FC = () => {
               </div>
             </div>
             <div className="flex w-full">
-              <div className="flex w-full mb-3">
+              <div className="flex w-full mb-3 sm:flex-col">
                 <div className="flex-wrap flex-shrink-0 h-10 text-lg font-bold w-28">
                   Github
                 </div>
@@ -84,22 +84,22 @@ const Projects: React.FC = () => {
               </div>
             </div>
             <div className="flex w-full">
-              <div className="flex w-full mb-3">
+              <div className="flex w-full mb-3 sm:flex-col">
                 <div className="flex-wrap flex-shrink-0 h-10 text-lg font-bold w-28">
                   URL
                 </div>
                 <div className="flex-auto ">
                   <a
                     className="text-blue-500 underline"
-                    href="https://github.com/shinker1002/choi-min-su"
+                    href="https://min-su.site/"
                   >
-                    https://github.com/shinker1002/choi-min-su
+                    https://min-su.site/
                   </a>
                 </div>
               </div>
             </div>
             <div className="flex w-full">
-              <div className="flex w-full mb-3">
+              <div className="flex w-full mb-3 sm:flex-col">
                 <div className="flex-wrap flex-shrink-0 h-10 text-lg font-bold w-28">
                   Frontend
                 </div>
@@ -109,7 +109,7 @@ const Projects: React.FC = () => {
               </div>
             </div>
             <div className="flex w-full">
-              <div className="flex w-full mb-3">
+              <div className="flex w-full mb-3 sm:flex-col">
                 <div className="flex-wrap flex-shrink-0 h-10 text-lg font-bold w-28">
                   Backend
                 </div>
@@ -118,7 +118,7 @@ const Projects: React.FC = () => {
             </div>
 
             <div className="flex w-full">
-              <div className="flex w-full mb-3">
+              <div className="flex w-full mb-3 sm:flex-col">
                 <div className="flex-wrap flex-shrink-0 h-10 text-lg font-bold w-28">
                   Deployment
                 </div>
@@ -137,7 +137,7 @@ const Projects: React.FC = () => {
           <div className="w-1/2 mr-8 border-gray-600 md:w-full md:mb-8">
             <img
               className="w-full"
-              src={`${process.env.REACT_APP_URL}images/OMC_Image_1.png`}
+              src={`${process.env.REACT_APP_URL}images/OMC_1.png`}
               alt="OMC"
             />
           </div>
@@ -181,7 +181,7 @@ const Projects: React.FC = () => {
               </span>
             </div>
             <div className="flex w-full">
-              <div className="flex w-full mb-3">
+              <div className="flex w-full mb-3 sm:flex-col">
                 <div className="flex-wrap flex-shrink-0 h-10 text-lg font-bold w-28">
                   주요기능
                 </div>
@@ -194,7 +194,7 @@ const Projects: React.FC = () => {
               </div>
             </div>
             <div className="flex w-full">
-              <div className="flex w-full mb-3">
+              <div className="flex w-full mb-3 sm:flex-col">
                 <div className="flex-wrap flex-shrink-0 h-10 text-lg font-bold w-28">
                   Github
                 </div>
@@ -209,7 +209,7 @@ const Projects: React.FC = () => {
               </div>
             </div>
             <div className="flex w-full">
-              <div className="flex w-full mb-3">
+              <div className="flex w-full mb-3 sm:flex-col">
                 <div className="flex-wrap flex-shrink-0 h-10 text-lg font-bold w-28">
                   URL
                 </div>
@@ -217,7 +217,7 @@ const Projects: React.FC = () => {
               </div>
             </div>
             <div className="flex w-full">
-              <div className="flex w-full mb-3">
+              <div className="flex w-full mb-3 sm:flex-col">
                 <div className="flex-wrap flex-shrink-0 h-10 text-lg font-bold w-28">
                   Frontend
                 </div>
@@ -227,7 +227,7 @@ const Projects: React.FC = () => {
               </div>
             </div>
             <div className="flex w-full">
-              <div className="flex w-full mb-3">
+              <div className="flex w-full mb-3 sm:flex-col">
                 <div className="flex-wrap flex-shrink-0 h-10 text-lg font-bold w-28">
                   Backend
                 </div>
@@ -235,7 +235,7 @@ const Projects: React.FC = () => {
               </div>
             </div>
             <div className="flex w-full">
-              <div className="flex w-full mb-3">
+              <div className="flex w-full mb-3 sm:flex-col">
                 <div className="flex-wrap flex-shrink-0 h-10 text-lg font-bold w-28">
                   Deployment
                 </div>
@@ -291,7 +291,7 @@ const Projects: React.FC = () => {
               </span>
             </div>
             <div className="flex w-full">
-              <div className="flex w-full mb-3">
+              <div className="flex w-full mb-3 sm:flex-col">
                 <div className="flex-wrap flex-shrink-0 h-10 text-lg font-bold w-28">
                   주요기능
                 </div>
@@ -304,7 +304,7 @@ const Projects: React.FC = () => {
               </div>
             </div>
             <div className="flex w-full">
-              <div className="flex w-full mb-3">
+              <div className="flex w-full mb-3 sm:flex-col">
                 <div className="flex-wrap flex-shrink-0 h-10 text-lg font-bold w-28">
                   Github
                 </div>
@@ -319,7 +319,7 @@ const Projects: React.FC = () => {
               </div>
             </div>
             <div className="flex w-full">
-              <div className="flex w-full mb-3">
+              <div className="flex w-full mb-3 sm:flex-col">
                 <div className="flex-wrap flex-shrink-0 h-10 text-lg font-bold w-28">
                   URL
                 </div>
@@ -334,7 +334,7 @@ const Projects: React.FC = () => {
               </div>
             </div>
             <div className="flex w-full">
-              <div className="flex w-full mb-3">
+              <div className="flex w-full mb-3 sm:flex-col">
                 <div className="flex-wrap flex-shrink-0 h-10 text-lg font-bold w-28">
                   Frontend
                 </div>
@@ -344,7 +344,7 @@ const Projects: React.FC = () => {
               </div>
             </div>
             <div className="flex w-full">
-              <div className="flex w-full mb-3">
+              <div className="flex w-full mb-3 sm:flex-col">
                 <div className="flex-wrap flex-shrink-0 h-10 text-lg font-bold w-28">
                   Backend
                 </div>
@@ -352,7 +352,7 @@ const Projects: React.FC = () => {
               </div>
             </div>
             <div className="flex w-full">
-              <div className="flex w-full mb-3">
+              <div className="flex w-full mb-3 sm:flex-col">
                 <div className="flex-wrap flex-shrink-0 h-10 text-lg font-bold w-28">
                   Deployment
                 </div>

@@ -42,13 +42,23 @@ const Profile: React.FC<profileResume> = ({
             <h4 className="text-xl text-yellow-600">Channel.·.·</h4>
             <div className="mt-1">
               <span className="font-bold">Blog: </span>
-              <a className="text-gray-400 underline" href={blog}>
+              <a
+                className="text-gray-400 underline"
+                href={blog}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 bit.ly/46FcZNn
               </a>
             </div>
             <div className="mt-1">
               <span className="font-bold">Github: </span>
-              <a className="text-gray-400 underline" href={github}>
+              <a
+                className="text-gray-400 underline"
+                href={github}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 {github}
               </a>
             </div>
