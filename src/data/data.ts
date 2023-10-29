@@ -79,7 +79,7 @@ export const stacksResumeData: stacksResume = {
     "Styled-Components",
   ],
   database: ["MySQL"],
-  etc: ["Git / GithubL", "AWS", "VS Code", "Python", "Prettier", "Eslint"],
+  etc: ["Git / Github", "AWS", "VS Code", "Python", "Prettier", "Eslint"],
 };
 
 export type projectsResumeType = {
@@ -269,7 +269,7 @@ export const stacksPortfolioData: stacksPortfolio = {
   ],
   database: ["MySQL"],
   databaseDetail: ["쿼리문을 작성하여 원하는 결과값을 출력할 수 있습니다."],
-  etc: ["Git / GithubL", "AWS", "VS Code", "Python", "Prettier", "Eslint"],
+  etc: ["Git / Github", "AWS", "VS Code", "Python", "Prettier", "Eslint"],
   etcDetail: [
     "S3, Route53, CloudFront를 사용하여 정적 웹 사이트를 호스팅할 수 있습니다.",
     "Eslint, Prettier을 사용하여 코드의 퀄리티와 스타일을 유지할 수 있습니다.",
